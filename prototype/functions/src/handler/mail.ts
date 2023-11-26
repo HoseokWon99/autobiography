@@ -1,5 +1,5 @@
-import { firestore } from "../config/firebase";
-import { Mail } from "../model/mail";
+import {firestore} from "../config/firebase";
+import {Mail} from "../model/mail";
 
 const mailColl = firestore.collection("mail");
 
